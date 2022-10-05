@@ -1,9 +1,9 @@
-import {useEffect, useCallback} from 'react';
-import {Alert} from 'react-native';
+import { useEffect, useCallback } from 'react';
+import { Alert } from 'react-native';
 
-import {Camera} from 'react-native-vision-camera';
+import { Camera } from 'react-native-vision-camera';
 
-import {Home} from './Home';
+import { Routes } from './routes';
 
 const App = () => {
   const checkCameraPermission = useCallback(async () => {
@@ -23,7 +23,7 @@ const App = () => {
     checkCameraPermission();
   }, [checkCameraPermission]);
 
-  return <Home />;
+  return <Routes />;
 };
 
-export {App};
+export { App };
