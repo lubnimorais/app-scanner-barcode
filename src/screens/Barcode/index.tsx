@@ -11,7 +11,7 @@ const BarcodeScreen = () => {
   const device = devices.back;
 
   const [frameProcessor, barcodes] = useScanBarcodes([
-    BarcodeFormat.CODE_128, // You can only specify a particular format
+    BarcodeFormat.ALL_FORMATS, // You can only specify a particular format
   ]);
 
   const [hasPermission, setHasPermission] = useState(false);

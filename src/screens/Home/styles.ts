@@ -9,6 +9,10 @@ export const Container = styled.View`
 
 export const NavigationButton = styled(TouchableOpacity).attrs({
   activeOpacity: 0.7,
-})``;
+})`
+  margin-bottom: 20px;
+`;
 
-export const NavigationButtonText = styled.Text``;
+export const NavigationButtonText = styled.Text`
+  font-size: 20px;
+`;

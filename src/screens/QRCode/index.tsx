@@ -7,6 +7,8 @@ import { useScanBarcodes, BarcodeFormat } from 'vision-camera-code-scanner';
 import { Container, BoxCamera } from './styles';
 
 const QRCodeScreen = () => {
+
+
   const devices = useCameraDevices();
   const device = devices.back;
 

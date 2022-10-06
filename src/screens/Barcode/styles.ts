@@ -8,8 +8,8 @@ export const BoxCamera = styled.View`
   position: absolute;
   top: 35%;
 
-  width: 70%;
-  height: 30%;
+  width: 100%;
+  height: 20%;
 
   align-self: center;
   align-items: center;

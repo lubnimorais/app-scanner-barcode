@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import { RFPercentage } from 'react-native-responsive-fontsize';
 
 export const Container = styled.View`
   flex: 1;
@@ -6,10 +7,10 @@ export const Container = styled.View`
 
 export const BoxCamera = styled.View`
   position: absolute;
-  top: 35%;
+  top: ${RFPercentage(30)}px;
 
-  width: 70%;
-  height: 30%;
+  width: ${RFPercentage(30)}px;
+  height: ${RFPercentage(30)}px;
 
   align-self: center;
   align-items: center;
